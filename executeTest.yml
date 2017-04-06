@@ -1,0 +1,8 @@
+# use runner from Taurus to execute a test script or a suite in iteration
+
+---
+execution:
+- executor: selenium
+  iterations: 5
+  scenario:
+    script: test/ # will run all .js files from test/ folder 
